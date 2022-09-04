@@ -1,0 +1,120 @@
+.cards {
+    width: 100%;
+    height: 648px;
+
+    background-color: #fff;
+
+    border-radius: 0px 0px 10px 10px;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.card {
+    width: 471px;
+    height: 168px;
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 36px;
+}
+
+.image {
+    width: 125px;
+    height: 168px;
+
+    border-radius: 5px;
+
+    margin-right: 19px;
+}
+
+.card-info {
+    width: 326px;
+    height: 144px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.location-logo {
+    width: 7px;
+    height: 10px;
+
+    margin-right: 8px;
+}
+
+.country-name {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+
+    color: #2b283a;
+
+    text-transform: uppercase;
+
+    margin-right: 10px;
+}
+
+.map-link {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 12px;
+    /* identical to box height */
+
+    text-decoration-line: underline;
+
+    color: #918e9b;
+}
+
+.title-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #2b283a;
+
+    margin-top: 7px;
+}
+
+.dates {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+
+    color: #2b283a;
+
+    margin-top: 13px;
+}
+
+.desc {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+    color: #2b283a;
+
+    margin-top: 9px;
+}
